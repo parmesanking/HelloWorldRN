@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A11B7B4EC426750ED9DB306 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE68881BE0292CE221F10A /* ExpoModulesProvider.swift */; };
+		71194F952816970100DFDF95 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 71194F932816970100DFDF95 /* main.jsbundle */; };
+		71194F962816970100DFDF95 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 71194F942816970100DFDF95 /* assets */; };
+		71CE50F4281668D2001C8C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE50F3281668D2001C8C46 /* AppDelegate.swift */; };
+		71CE50F6281668D2001C8C46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE50F5281668D2001C8C46 /* SceneDelegate.swift */; };
+		71CE50F8281668D2001C8C46 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE50F7281668D2001C8C46 /* MainViewController.swift */; };
+		71CE50FB281668D2001C8C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CE50F9281668D2001C8C46 /* Main.storyboard */; };
+		71CE50FE281668D2001C8C46 /* HelloWorldRN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71CE50FC281668D2001C8C46 /* HelloWorldRN.xcdatamodeld */; };
+		71CE5100281668D5001C8C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CE50FF281668D5001C8C46 /* Assets.xcassets */; };
+		71CE5103281668D5001C8C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CE5101281668D5001C8C46 /* LaunchScreen.storyboard */; };
+		71CE510D28167AB8001C8C46 /* NativeCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CE510B28167AB8001C8C46 /* NativeCommunication.m */; };
+		71CE510E28167AB8001C8C46 /* NativeCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE510C28167AB8001C8C46 /* NativeCommunication.swift */; };
+		71CE511028167FDE001C8C46 /* RNViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE510F28167FDE001C8C46 /* RNViewManager.swift */; };
+		EA6AB183BCFF8FD252285022 /* libPods-HelloWorldRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AB7FFF0568D21448ED8EA /* libPods-HelloWorldRN.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DEE68881BE0292CE221F10A /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-HelloWorldRN/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		356191A0638D4B180C5823DD /* Pods-HelloWorldRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldRN.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldRN/Pods-HelloWorldRN.debug.xcconfig"; sourceTree = "<group>"; };
+		71194F932816970100DFDF95 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		71194F942816970100DFDF95 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		71CE50F0281668D2001C8C46 /* HelloWorldRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CE50F3281668D2001C8C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71CE50F5281668D2001C8C46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71CE50F7281668D2001C8C46 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		71CE50FA281668D2001C8C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71CE50FD281668D2001C8C46 /* HelloWorldRN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloWorldRN.xcdatamodel; sourceTree = "<group>"; };
+		71CE50FF281668D5001C8C46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71CE5102281668D5001C8C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71CE5104281668D5001C8C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CE510A28167AB7001C8C46 /* HelloWorldRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorldRN-Bridging-Header.h"; sourceTree = "<group>"; };
+		71CE510B28167AB8001C8C46 /* NativeCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeCommunication.m; sourceTree = "<group>"; };
+		71CE510C28167AB8001C8C46 /* NativeCommunication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeCommunication.swift; sourceTree = "<group>"; };
+		71CE510F28167FDE001C8C46 /* RNViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNViewManager.swift; sourceTree = "<group>"; };
+		A848B778821C1523D46C13D3 /* Pods-HelloWorldRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldRN.release.xcconfig"; path = "Target Support Files/Pods-HelloWorldRN/Pods-HelloWorldRN.release.xcconfig"; sourceTree = "<group>"; };
+		FF4AB7FFF0568D21448ED8EA /* libPods-HelloWorldRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71CE50ED281668D2001C8C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6AB183BCFF8FD252285022 /* libPods-HelloWorldRN.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D6CC3F3E4335E204791E05 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				80B0F777309930412FCDD4DF /* HelloWorldRN */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		6109E9881145C29D99B7952A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				356191A0638D4B180C5823DD /* Pods-HelloWorldRN.debug.xcconfig */,
+				A848B778821C1523D46C13D3 /* Pods-HelloWorldRN.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71CE50E7281668D2001C8C46 = {
+			isa = PBXGroup;
+			children = (
+				71CE50F2281668D2001C8C46 /* HelloWorldRN */,
+				71CE50F1281668D2001C8C46 /* Products */,
+				6109E9881145C29D99B7952A /* Pods */,
+				F10EF7D7019B2F1D60CF4E8D /* Frameworks */,
+				40D6CC3F3E4335E204791E05 /* ExpoModulesProviders */,
+			);
+			sourceTree = "<group>";
+		};
+		71CE50F1281668D2001C8C46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71CE50F0281668D2001C8C46 /* HelloWorldRN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CE50F2281668D2001C8C46 /* HelloWorldRN */ = {
+			isa = PBXGroup;
+			children = (
+				71194F942816970100DFDF95 /* assets */,
+				71194F932816970100DFDF95 /* main.jsbundle */,
+				71CE510B28167AB8001C8C46 /* NativeCommunication.m */,
+				71CE510C28167AB8001C8C46 /* NativeCommunication.swift */,
+				71CE50F3281668D2001C8C46 /* AppDelegate.swift */,
+				71CE50F5281668D2001C8C46 /* SceneDelegate.swift */,
+				71CE50F7281668D2001C8C46 /* MainViewController.swift */,
+				71CE50F9281668D2001C8C46 /* Main.storyboard */,
+				71CE50FF281668D5001C8C46 /* Assets.xcassets */,
+				71CE5101281668D5001C8C46 /* LaunchScreen.storyboard */,
+				71CE5104281668D5001C8C46 /* Info.plist */,
+				71CE50FC281668D2001C8C46 /* HelloWorldRN.xcdatamodeld */,
+				71CE510A28167AB7001C8C46 /* HelloWorldRN-Bridging-Header.h */,
+				71CE510F28167FDE001C8C46 /* RNViewManager.swift */,
+			);
+			path = HelloWorldRN;
+			sourceTree = "<group>";
+		};
+		80B0F777309930412FCDD4DF /* HelloWorldRN */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE68881BE0292CE221F10A /* ExpoModulesProvider.swift */,
+			);
+			name = HelloWorldRN;
+			sourceTree = "<group>";
+		};
+		F10EF7D7019B2F1D60CF4E8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF4AB7FFF0568D21448ED8EA /* libPods-HelloWorldRN.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71CE50EF281668D2001C8C46 /* HelloWorldRN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CE5107281668D5001C8C46 /* Build configuration list for PBXNativeTarget "HelloWorldRN" */;
+			buildPhases = (
+				9C69580FA48EC1E4C218B52A /* [CP] Check Pods Manifest.lock */,
+				71CE50EC281668D2001C8C46 /* Sources */,
+				71CE50ED281668D2001C8C46 /* Frameworks */,
+				71CE50EE281668D2001C8C46 /* Resources */,
+				790C2F342BF89482D7DD426A /* [CP] Embed Pods Frameworks */,
+				831829DD775CFE84F1F7E799 /* [CP] Copy Pods Resources */,
+				71194F922816957D00DFDF95 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldRN;
+			productName = HelloWorldRN;
+			productReference = 71CE50F0281668D2001C8C46 /* HelloWorldRN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71CE50E8281668D2001C8C46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					71CE50EF281668D2001C8C46 = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = 71CE50EB281668D2001C8C46 /* Build configuration list for PBXProject "HelloWorldRN" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71CE50E7281668D2001C8C46;
+			productRefGroup = 71CE50F1281668D2001C8C46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71CE50EF281668D2001C8C46 /* HelloWorldRN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71CE50EE281668D2001C8C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71194F962816970100DFDF95 /* assets in Resources */,
+				71CE5103281668D5001C8C46 /* LaunchScreen.storyboard in Resources */,
+				71CE5100281668D5001C8C46 /* Assets.xcassets in Resources */,
+				71CE50FB281668D2001C8C46 /* Main.storyboard in Resources */,
+				71194F952816970100DFDF95 /* main.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71194F922816957D00DFDF95 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		790C2F342BF89482D7DD426A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldRN/Pods-HelloWorldRN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldRN/Pods-HelloWorldRN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorldRN/Pods-HelloWorldRN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		831829DD775CFE84F1F7E799 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldRN/Pods-HelloWorldRN-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldRN/Pods-HelloWorldRN-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorldRN/Pods-HelloWorldRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C69580FA48EC1E4C218B52A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldRN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71CE50EC281668D2001C8C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CE50F8281668D2001C8C46 /* MainViewController.swift in Sources */,
+				71CE510E28167AB8001C8C46 /* NativeCommunication.swift in Sources */,
+				71CE50FE281668D2001C8C46 /* HelloWorldRN.xcdatamodeld in Sources */,
+				71CE50F4281668D2001C8C46 /* AppDelegate.swift in Sources */,
+				71CE511028167FDE001C8C46 /* RNViewManager.swift in Sources */,
+				71CE50F6281668D2001C8C46 /* SceneDelegate.swift in Sources */,
+				71CE510D28167AB8001C8C46 /* NativeCommunication.m in Sources */,
+				1A11B7B4EC426750ED9DB306 /* ExpoModulesProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71CE50F9281668D2001C8C46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CE50FA281668D2001C8C46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71CE5101281668D5001C8C46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CE5102281668D5001C8C46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71CE5105281668D5001C8C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71CE5106281668D5001C8C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71CE5108281668D5001C8C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356191A0638D4B180C5823DD /* Pods-HelloWorldRN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3398NW57YT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWorldRN/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.farmvision.HelloWorldRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorldRN/HelloWorldRN-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71CE5109281668D5001C8C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A848B778821C1523D46C13D3 /* Pods-HelloWorldRN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3398NW57YT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWorldRN/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.farmvision.HelloWorldRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorldRN/HelloWorldRN-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71CE50EB281668D2001C8C46 /* Build configuration list for PBXProject "HelloWorldRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CE5105281668D5001C8C46 /* Debug */,
+				71CE5106281668D5001C8C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CE5107281668D5001C8C46 /* Build configuration list for PBXNativeTarget "HelloWorldRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CE5108281668D5001C8C46 /* Debug */,
+				71CE5109281668D5001C8C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71CE50FC281668D2001C8C46 /* HelloWorldRN.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71CE50FD281668D2001C8C46 /* HelloWorldRN.xcdatamodel */,
+			);
+			currentVersion = 71CE50FD281668D2001C8C46 /* HelloWorldRN.xcdatamodel */;
+			path = HelloWorldRN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71CE50E8281668D2001C8C46 /* Project object */;
+}
